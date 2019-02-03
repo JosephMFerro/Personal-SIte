@@ -6,7 +6,7 @@ export const Mono = styled.p`
 `;
 
 export const TitleWrapper = styled.div`
-  color: white;
+  color: #3d9970;
   margin-left: 200px;
 `;
 
@@ -23,15 +23,21 @@ export const Background = styled.div`
 `;
 
 export const Image = styled.img`
-  height: 70%;
+  width: 30%;
+  height: auto;
   padding: 60px;
-  opacity: 0.5;
+  opacity: 0.6;
+  z-index: 3;
 `;
 
 export const GridWrapper = styled.div `
-  height: 70%;
-  width: 60%;
+  height: 300px;
+  width: 300px;
   opacity: 0.5;
   float: right;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 20px;
 `;

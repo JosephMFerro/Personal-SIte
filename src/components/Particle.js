@@ -2,9 +2,28 @@ import React from "react";
 import Particles from 'react-particles-js';
 import styled from 'styled-components';
 
-const ParticlesContainer = () => (
+const Particle = () => (
   <Container>
-    <Particles />
+    <Particles
+        params={{
+	        "particles": {
+	            "number": {
+	                "value": 40
+	            },
+	            "size": {
+	                "value": 1
+	            }
+	        },
+	        "interactivity": {
+	            "events": {
+	                "onhover": {
+	                    "enable": true,
+	                    "mode": "repulse"
+	                }
+	            }
+	        }
+	    }} 
+    />
   </Container>
 );
 
@@ -16,4 +35,4 @@ const Container = styled.div`
   width: 100%;
 `;
 
-export default ParticlesContainer;
+export default Particle;

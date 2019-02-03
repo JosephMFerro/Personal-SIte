@@ -7,7 +7,7 @@ export const NavDiv = styled.div `
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: white;
+  background-color: #245b43;
   overflow-x: hidden; 
   display: flex;
 `;
@@ -17,6 +17,7 @@ export const Link = styled.a`
   font-family: monospace;
   font-size: 18px;
   color: #818181;
+  color: #d8eae2  !important;
   display: block;
   padding: 10px;
 `;

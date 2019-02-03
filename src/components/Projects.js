@@ -7,9 +7,7 @@ const Projects = () => (
     <TitleWrapper>
       <Mono>Projects</Mono>
     </TitleWrapper>
-    <GridWrapper>
-      <ProjectGrid />
-    </GridWrapper>
+    <ProjectGrid />
   </Background>
 )
 
